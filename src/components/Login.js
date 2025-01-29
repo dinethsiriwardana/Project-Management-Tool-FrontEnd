@@ -29,7 +29,7 @@ export default function Login({ setIsAuthenticated }) {
     <Container component="main" maxWidth="xs">
       <Paper elevation={3} sx={{ p: 4, mt: 8 }}>
         <Typography component="h1" variant="h5" align="center">
-          Bokkage Huththe PM App eka<br></br>
+          Project Management Tool<br></br>
           Login
         </Typography>
         <form onSubmit={handleSubmit}>
@@ -37,7 +37,7 @@ export default function Login({ setIsAuthenticated }) {
             margin="normal"
             required
             fullWidth
-            label="Email"
+            label="Username"
             type="text"
             value={formData.username}
             onChange={(e) =>
